@@ -40,7 +40,7 @@ public class MercanciaUbicacionBodegaService {
         MercanciaEntity mercancia = mercanciaEntity.get();
         UbicacionBodegaEntity ubicacion = ubicacionEntity.get();
 
-        mercancia.setBodega(ubicacion);
+        mercancia.setUbicacionBodega(ubicacion);
         mercanciaRepository.save(mercancia);
 
     }
