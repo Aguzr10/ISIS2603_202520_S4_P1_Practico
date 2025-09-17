@@ -7,15 +7,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.text.html.parser.Entity;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.context.annotation.Import;
 
-import co.edu.uniandes.dse.parcial1.entities.MercanciaEntity;
 import co.edu.uniandes.dse.parcial1.entities.UbicacionBodegaEntity;
 import co.edu.uniandes.dse.parcial1.exceptions.IllegalOperationException;
 import jakarta.persistence.EntityManager;

@@ -7,9 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.text.html.parser.Entity;
-
-import org.aspectj.lang.annotation.Before;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,7 +48,7 @@ class MercanciaServiceTest {
     private void insertData() {
         for (int i = 0; i < 3; i++) {
             MercanciaEntity mercancia = factory.manufacturePojo(MercanciaEntity.class);
-            mercancia.setBodega(null);
+            mercancia.setUbicacionBodega(null);
             entityManager.persist(mercancia);
 
         }

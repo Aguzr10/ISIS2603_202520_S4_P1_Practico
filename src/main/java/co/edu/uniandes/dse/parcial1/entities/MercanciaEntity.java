@@ -18,7 +18,7 @@ public class MercanciaEntity extends BaseEntity{
 
     @PodamExclude
     @ManyToOne
-    private UbicacionBodegaEntity bodega;
+    private UbicacionBodegaEntity ubicacionBodega;
 
     
 }
