@@ -18,7 +18,7 @@ public class UbicacionBodegaEntity extends BaseEntity{
     private int pesoMaximocanasta;
     
     @PodamExclude
-    @OneToMany(mappedBy = "bodega", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<UbicacionBodegaEntity> mercancia = new ArrayList<>();
-    
+    @OneToMany(mappedBy = "ubicacionBodega", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<MercanciaEntity> mercancia = new ArrayList<>();
+
 }
