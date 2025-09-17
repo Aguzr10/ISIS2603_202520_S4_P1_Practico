@@ -7,5 +7,4 @@ import lombok.Data;
 @Entity
 public class UbicacionBodegaEntity extends BaseEntity{
    
-    
-}
+    }
